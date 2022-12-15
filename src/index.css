@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+*{
+  color: #5f5c5c;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #0C0F0A;
+}
+.navegacion{
+  background-color: #761273;
+}
+.i_links{
+  position: relative;
+  top: 16%;
+}
+.i_nav{
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: #fffcfc;
+}
+.i_nav:hover{
+  color: #000;
+}
+.logo{
+  width: 79px;
+  height: 50px;
+}
+.carrito{
+  width: 45px;
+  height: 45px;
+}
+.carritoBtn{
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 50%;
+  border: #0C0F0A 2px solid;
+  text-align: center;
+  color: #000;
+  background-color: #fffcfc;
+}
+.baseCaja{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3%;
+  padding-bottom: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-color: #4b0e24;
+}
+.caja{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 280px;
+  height: 500px;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-radius: 5%;
+  background-color: #f9f4f4;
+}
+.imagenJuego{
+  width: 180px;
+  height: 260px;
+  margin-top: 1%;
+  border-radius: 3%;
+}
+.tituloJuego{
+  text-align: center;
+}
+.precioJuego{
+  text-align: center;
+}
+.contHome1{
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+.rns{
+  width: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 30pxpx;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.contHome2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnAgregar{
+  width: 50%;
+  background: #393ee8;
+  background: linear-gradient(139deg,#393ee8 0%, #7879c2 99%);
+  background: -webkit-linear-gradient(139deg,#393ee8 0%, #7879c2 99%);
+  background: -moz-linear-gradient(139deg,#393ee8 0%, #7879c2 99%);
+  border: none;
+  border-radius: 5%;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;  
+  font-size: 16px;
+}
+.btnAgregar:hover{
+  background: #6f73f2;
+  background: linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+  background: -webkit-linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+  background: -moz-linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+}
+.piePagina{
+  width: 100%;
+  margin: 0;
+  height: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #761273;
+  color:#fffcfc;
+}
+.h1Home{
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: #f9f4f4;
+}
+.divHome{
+  display: flex;
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  background: #6f73f2;
+  background: linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+  background: -webkit-linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+  background: -moz-linear-gradient(139deg,#6f73f2 0%, #b1b2de 99%);
+}
+.divHome2{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+}
+.pHome{
+  font-size: 48px;
+  color: #f9f4f4;
+  text-align: center;
+  padding-top: 4%;
+}
+.imgHome{
+  height: 200px;
+}
+.linkHome{
+  text-decoration: none;
+  color:#dfb0b0;
+}
+.divN{
+  margin-top: 5%;
+  margin-bottom: 80%;
+}
