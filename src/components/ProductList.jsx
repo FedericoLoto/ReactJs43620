@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useEffect } from "react";
+import Loader from './Loader'
 
 const ProductList = () => {
     const [products,setProducts]= useState([]);
@@ -29,7 +30,11 @@ const ProductList = () => {
             
     }
     return(
-        renderProducts()
-    )
+        <>
+        {products.length === 0 ? <Loader/> : renderProducts()}
+        </>
+        )
+        
+        
 };
 export default ProductList;
