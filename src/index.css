@@ -178,7 +178,46 @@ body{
   text-decoration: none;
   color:#dfb0b0;
 }
-.divN{
+.n_div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.n_tienda{
+  width: 700px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1%;
+  margin-bottom: 5%;
+}
+.n_h1{
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.n_h3{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.n_p{
+  font-size: 24px;
+}
+.c_div{
+  display: flex;
+  width: 90%;
   margin-top: 5%;
-  margin-bottom: 80%;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #370735;
+  border-radius: 2%;
+  border: #f9f4f4 1px solid;
+}
+.c_div2{
+  text-align: center;
 }

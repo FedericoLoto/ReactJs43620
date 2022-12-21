@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Caja from "./Caja";
 
 const ItemCount = ({inicial, disponible, onAdd})=>{
     const [contador, setConstador] = useState(parseInt(inicial));
