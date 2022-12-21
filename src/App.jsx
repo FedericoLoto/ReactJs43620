@@ -7,7 +7,6 @@ import Carrito from "./pages/Carrito";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Nosotros from "./pages/Nosotros";
-import ProductList from "./components/ProductList";
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
 
       <BrowserRouter>
         <Navbar/>
-        <ProductList/>
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/catalogo" element={<ItemListContainer/>} />

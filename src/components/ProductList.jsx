@@ -1,7 +1,11 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState,useEffect } from "react";
 import Loader from './Loader'
+import ItemCount from "./ItemCount";
 
+
+const onAdd= (cantidad) =>{
+    console.log(`compraste ${cantidad} juegos`);
+}
 const ProductList = () => {
     const [products,setProducts]= useState([]);
     useEffect(() => {
@@ -18,14 +22,17 @@ const ProductList = () => {
     
     const renderProducts =()=>{
         return(
-            products.map((products)=>{
-                <div>
-                    <h1>{products.name}</h1>
-                    <img src={products.img}/>
-                    <h2>{products.price}</h2>
-                    <p>{products.description}</p>
+            products.map((p)=>
+                <div className='caja'>
+                    <h1 className='tituloJuego' >{p.name}</h1>
+                    <img className='imagenJuego' src={p.img}/>
+                    <h2 className='precioJuego'>{p.price}</h2>
+                    <p className='precioJuego'>{p.description}</p>
+                    <div>
+            <ItemCount inicial={1} disponible={10} onAdd={onAdd} />
+            </div> 
                 </div>
-            })
+            )
             )
             
     }
