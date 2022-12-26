@@ -1,13 +1,20 @@
 import { useParams } from "react-router-dom";
-import Caja from "../components/Caja"
+import { useEffect } from "react";
+import { useState } from "react";
+import ItemListContainer from "../components/ItemListContainer";
+
     
 function Description(){
-    const {juego}= useParams();
+    const [producto,setProducto]=useState(null);
+    const{ id } = useParams();
+    console.log('id: ',id);
+    useEffect(()=>{
+        const obtProducto= <ItemListContainer/>;
+        console.log('es: ',obtProducto);
+    })
     return(
         <>
-            <Caja/>
-            <p><b>Titulo:</b> {juego}</p>
-            <p> Lorem, ipsum dolor</p>
+        <h1>{producto?.id}</h1>
         </>
         
     )

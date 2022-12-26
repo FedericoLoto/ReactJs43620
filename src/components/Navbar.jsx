@@ -2,14 +2,6 @@ import { Link } from "react-router-dom";
 import CartWidget from "./CardWidget";
 import Logo from "./Logo";
 
- // const [cargando, setCargando] = useState(true);
-  // useEffect (()=>{
-  //   fetch('https://pokeapi.co/api/v2/pokemon/ditto')
-  //   .then((Response)=>Response.json())
-  //   .then((Response)=>{
-  //   console.log(Response)
-  // })
-  // });
 
 const Navbar = () =>{
     return(

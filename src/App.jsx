@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Nosotros from "./pages/Nosotros";
 
-
 function App() {
   return (
     <>
@@ -18,8 +17,8 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/catalogo" element={<ItemListContainer/>} />
-          <Route path="/catalogo/:juego" element={<Description/>} />
-          <Route path="/Nosotros" element={<Nosotros/>}/>
+          <Route path="/producto/:id" element={<Description/>} />
+          <Route path="/nosotros" element={<Nosotros/>}/>
           <Route path="/carrito" element={<Carrito/>} />
         </Routes>  
         <Footer/> 
